@@ -9,7 +9,7 @@ const yaml = require('yamljs')
 module.exports = {
     entry: './src/index.js',
     output:{
-        filename: 'js/bundle.[contenthast].js',
+        filename: 'js/bundle.[contenthash].js',
         path: path.resolve(__dirname,'dist'),
         publicPath:""
     },
@@ -38,7 +38,7 @@ module.exports = {
                     {
                         loader: 'file-loader',
                         options:{
-                            name:'images/[contenthast].[ext]'
+                            name:'images/[contenthash].[ext]'
                         }
                     }
                 ]

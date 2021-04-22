@@ -1,8 +1,10 @@
 import React,{Fragment} from 'react';
+import Header from './components/Header';
 
 const App = () => {
     return (
-        <Fragment>Hello World</Fragment>
+        <Fragment><Header/></Fragment>
+        
     );
 }
  
